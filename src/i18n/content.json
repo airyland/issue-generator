@@ -5,14 +5,14 @@
     "repoSelectHint": "选择要提交 issue 的库",
     "repos": [
       {
-        "name": "Element UI",
-        "github": "ElemeFE/element",
-        "npm": "element-ui"
+        "name": "VUX",
+        "github": "airyland/vux",
+        "npm": "vux"
       },
       {
-        "name": "Mint UI",
-        "github": "ElemeFE/mint-ui",
-        "npm": "mint-ui"
+        "name": "vux-loader",
+        "github": "airyland/vux-loader",
+        "npm": "vux-loader"
       }
     ],
     "issueTitleHint": "Issue 标题",
@@ -23,32 +23,10 @@
     ],
     "issueUsage": "Issue 是用作提交 Bug 以及请求新特性的，对于简单的问题，请查阅以下资源：",
     "links": {
-      "Element UI": [
+      "VUX": [
         {
           "desc": "官网：",
-          "link": "http://element.eleme.io/#/zh-CN"
-        },
-        {
-          "desc": "文档：",
-          "link": "http://element.eleme.io/#/zh-CN/component/"
-        },
-        {
-          "desc": "常见问题：",
-          "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#常见问题"
-        },
-        {
-          "desc": "SegmentFault：",
-          "link": "https://segmentfault.com/t/element"
-        },
-        {
-          "desc": "Gitter：",
-          "link": "https://gitter.im/ElemeFE/element"
-        }
-      ],
-      "Mint UI": [
-        {
-          "desc": "官网：",
-          "link": "https://github.com/ElemeFE/mint-ui"
+          "link": "http://doc.vux.li/zh-CN/"
         }
       ]
     },
@@ -83,7 +61,8 @@
       "expect": "请填写期待的行为",
       "actual": "请填写实际的表现",
       "desc": " 请填写描述",
-      "componentName": "请填写组件名"
+      "componentName": "请填写组件名",
+      "code": "请填写重现代码"
     },
     "loadingText": "加载中",
     "noMatchText": "无匹配数据",
@@ -95,7 +74,8 @@
     "existingComponentHint": "是否是已有组件？",
     "existingComponentYes": "是",
     "existingComponentNo": "否",
-    "componentNameHint": "组件名"
+    "componentNameHint": "组件名",
+    "code": "代码"
   },
   {
     "lang": "en-US",
@@ -103,14 +83,14 @@
     "repoSelectHint": "I am opening an issue for",
     "repos": [
       {
-        "name": "Element UI",
-        "github": "ElemeFE/element",
-        "npm": "element-ui"
+        "name": "VUX",
+        "github": "airyland/vux",
+        "npm": "vux"
       },
       {
-        "name": "Mint UI",
-        "github": "ElemeFE/mint-ui",
-        "npm": "mint-ui"
+        "name": "vux-loader",
+        "github": "airyland/vux-loader",
+        "npm": "vux-loader"
       }
     ],
     "issueTitleHint": "Issue Title",
@@ -120,32 +100,6 @@
       "Feature Request"
     ],
     "issueUsage": "The issue list of this repo is exclusively for bug reports and feature requests. For simple questions, please use the following resources:",
-    "links": {
-      "Element UI": [
-        {
-          "desc": "HomePage: ",
-          "link": "http://element.eleme.io/#/en-US"
-        },
-        {
-          "desc": "Docs: ",
-          "link": "http://element.eleme.io/#/en-US/component/"
-        },
-        {
-          "desc": "FAQ: ",
-          "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#faq"
-        },
-        {
-          "desc": "Gitter: ",
-          "link": "https://gitter.im/element-en/Lobby"
-        }
-      ],
-      "Mint UI": [
-        {
-          "desc": "HomePage: ",
-          "link": "https://github.com/ElemeFE/mint-ui"
-        }
-      ]
-    },
     "issueHint": "Try to search for your issue, it may have already been answered or even fixed in the development branch.",
     "versionRepositoryHint": "Repository Version",
     "versionRepositoryHintSmall": "Check if the issue is reproducible with the latest stable version of Repository.",
@@ -177,7 +131,8 @@
       "expect": "Please provide what is expected?",
       "actual": "Please provide what is actually happening?",
       "desc": " Please provide description.",
-      "componentName": "Please provide the name of component."
+      "componentName": "Please provide the name of component.",
+      "code": "Please provide code."
     },
     "loadingText": "loading",
     "noMatchText": "no matching data",
@@ -189,6 +144,7 @@
     "existingComponentHint": "Existing component?",
     "existingComponentYes": "Yes",
     "existingComponentNo": "No",
-    "componentNameHint": "Component Name"
+    "componentNameHint": "Component Name",
+    "code": "code"
   }
 ]
