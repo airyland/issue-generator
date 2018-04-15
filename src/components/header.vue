@@ -1,9 +1,6 @@
 <template lang="pug">
   nav
     el-menu(theme="dark", mode="horizontal", :default-active="language", :router="true")
-      li
-        a(href="https://github.com/ElemeFE", target="_blank")
-          img(src="../assets/images/logo.png")
       el-menu-item.right(index="zh-CN") 中文
       el-menu-item.right(index="en-US") English
 </template>
