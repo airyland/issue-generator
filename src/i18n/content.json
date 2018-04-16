@@ -100,6 +100,14 @@
       "Feature Request"
     ],
     "issueUsage": "The issue list of this repo is exclusively for bug reports and feature requests. For simple questions, please use the following resources:",
+    "links": {
+      "VUX": [
+        {
+          "desc": "Document：",
+          "link": "http://doc.vux.li/en/"
+        }
+      ]
+    },
     "issueHint": "Try to search for your issue, it may have already been answered or even fixed in the development branch.",
     "versionRepositoryHint": "Repository Version",
     "versionRepositoryHintSmall": "Check if the issue is reproducible with the latest stable version of Repository.",
